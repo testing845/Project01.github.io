@@ -1,94 +1,597 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        .container {
-            padding: 20px;
-        }
-        footer {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>Adrian Z. · Human Interface Designer</title>
+<meta name="description" content="Designer working at the intersection of art, design, and AI.">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.144abc52.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.8b19b573.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.1169a570.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.a533fff7.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.0692d801.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.8687745f.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.9d37b45a.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.90bc8c93.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.9780c7ff.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.0d05145b.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.654148d5.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.e1a2bedb.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.5abe3582.png">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://www.azumbrunnen.me/blog/feed/rss2">
+<link rel="alternate" type="text/xml" title="RSS .92" href="https://www.azumbrunnen.me/blog/feed/rss">
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://www.azumbrunnen.me/blog/feed/atom">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+<meta name="theme-color" content="#000000">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@azumbrunnen_">
+<meta name="twitter:creator" content="@azumbrunnen_">
+<meta name="twitter:title" content="Adrian Z. · Human Interface Designer">
+<meta name="twitter:description" content="Designer working at the intersection of art, design, and AI.">
+<meta name="twitter:image" content="https://azumbrunnen.me/social.jpg">
+
+<meta property="og:title" content="Adrian Z. · Human Interface Designer">
+<meta property="og:url" content="https://azumbrunnen.me/ ">
+<meta property="og:description" content="Designer working at the intersection of art, design, and AI.">
+<meta property="og:site_name" content="Adrian Z. · Human Interface Designer">
+<meta property="og:image" content="https://azumbrunnen.me/social.jpg">
+<link rel="stylesheet" href="/index.b1276d39.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<body class="home">
+<div id="cursor"></div>
+<div class="wrapper">
+<section class="intro">
+<video width="1920" muted autoplay playsinline>
+<source src="/mono-fs2.409b5c6e.mp4" type="video/mp4">
+</video>
+</section>
+<section class="about">
+<textarea placeholder="Type your message… "></textarea>
+<h1 class="about__title">
+<span class="greet">hi</span>.<br>
+<span class="are">i’m</span><br>
+<span>adrian</span>.
+</h1>
+<div class="row">
+<div class="col-xs-12 col-sm-8 col-md-7 col-lg-8">
+<p class="about__introText">I’m a designer working on the Human Interface Team at Apple. My passion is to create emotional experiences at the intersection of art, design, and AI.</p>
+</div>
+</div>
+<div class="row about__buttons">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<a href="#" class="btn btn--icon btn--hi"><span class="btn__icon">→</span><span class="btn__text"><span class="btn__text__main">say hi</span><span class="btn__text__sub">go back</span></span></a>
+<a href="#" class="btn btn--snd"><span class="btn__text">send</span></a>
+</div>
+</div>
+</section>
+<div class="home-wrapper">
+<div class="workgrid">
+<div class="workgrid__item workgrid__item--1">
+<a href="/mono.html">
+<div class="workgrid__item__container">
+<div class="workgrid__item__title">
+mono characters
+</div>
+<div class="workgrid__item__content">
+<img src="/mono-characters.c7367b3c.png" alt="mono-characters">
+</div>
+</div>
+</a>
+</div>
+<div class="workgrid__item workgrid__item--2">
+<a href="/experiments.html">
+<div class="workgrid__item__container">
+<div class="workgrid__item__title">
+experiments
+</div>
+<div class="workgrid__item__content">
+<img src="/refraction.73a45cc3.jpg" alt="refraction">
+</div>
+</div>
+</a>
+</div>
+<div class="workgrid__item workgrid__item--3">
+<div class="workgrid__item__container">
+<div class="workgrid__item__content">
+<img src="/spec.ff6ecee5.png" alt="spec icon">
+</div>
+</div>
+</div>
+<div class="workgrid__item workgrid__item--4">
+<div class="workgrid__item__container">
+<div class="workgrid__item__content">
+<video width="616" height="516" autoplay muted loop playsinline>
+<source src="/apple-intro-alpha-h265.464e54a1.mov" type="video/quicktime">
+<source src="/apple-intro-alpha-h265.debf2c34.webm" type="video/webm">
+</video>
+</div>
+</div>
+</div>
+<div class="workgrid__item workgrid__item--5">
+<a href="/experiments.html">
+<div class="workgrid__item__container">
+<div class="workgrid__item__title">
+fabric wallpaper
+</div>
+<div class="workgrid__item__content">
+<img src="/clothwallpaper.43456fb4.jpg" alt="hand-crafted wallpapers">
+</div>
+</div>
+</a>
+</div>
+<div class="workgrid__item workgrid__item--6">
+<a href="/lens.html">
+<div class="workgrid__item__container">
+<div class="workgrid__item__title">
+google lens
+</div>
+<div class="workgrid__item__content">
+<img src="/lens.5e7db7d2.jpg" alt="google lens">
+</div>
+</div>
+</a>
+</div>
+<div class="workgrid__item workgrid__item--7">
+<a href="/bttf.html">
+<div class="workgrid__item__container">
+<div class="workgrid__item__title">
+Time Experiment
+</div>
+<div class="workgrid__item__content">
+<video autoplay muted loop playsinline>
+<source src="/delorean.e4091e1d.mov" type="video/quicktime">
+<source src="/delorean.ae037414.webm" type="video/webm">
+</video>
+</div>
+</div>
+</a>
+</div>
+<div class="workgrid__item workgrid__item--8">
+<a href="/mono.html">
+<div class="workgrid__item__container">
+<div class="workgrid__item__title">
+mono studio<br>
+brand design
+</div>
+<div class="workgrid__item__content">
+<video width="804" height="664" autoplay playsinline muted loop>
+<source src="/m.0d91848a.mov" type="video/quicktime">
+<source src="/m.8adf431d.webm" type="video/webm">
+</video>
+</div>
+</div>
+</a>
+</div>
+<div class="workgrid__item workgrid__item--9">
+<a href="/nga.html">
+<div class="workgrid__item__container">
+<div class="workgrid__item__title">
+next generation<br>assistant
+</div>
+<div class="workgrid__item__content">
+<img src="/nga-closeup2.8499a9ba.png" alt="nga">
+</div>
+</div>
+</a>
+</div>
+<div class="workgrid__item workgrid__item--10">
+<div class="workgrid__item__container">
+<div class="workgrid__item__content">
+<img src="/googlecloth.da5da612.jpg" alt="valyrian">
+</div>
+</div>
+</div>
+<div class="workgrid__item workgrid__item--11">
+<div class="workgrid__item__container">
+<div class="workgrid__item__content">
+<video width="308" height="258" autoplay playsinline muted loop>
+<source src="/ambient.47f3fbbc.mov" type="video/quicktime">
+<source src="/ambient.c1027bf9.webm" type="video/webm">
+</video>
+</div>
+</div>
+</div>
+<div class="workgrid__item workgrid__item--12">
+<div class="workgrid__item__container">
+<div class="workgrid__item__content">
+<img src="/one.4b65c450.png" alt="one">
+</div>
+</div>
+</div>
+<div class="workgrid__item workgrid__item--13">
+<a href="/mindful.html">
+<div class="workgrid__item__container">
+<div class="workgrid__item__title">
+mindful editor
+</div>
+<div class="workgrid__item__content">
+<video width="800" height="600" autoplay playsinline muted loop>
+<source src="/mindful-transparent.46ed2198.webm" type="video/webm">
+<source src="/mindful-transparent.baa8cbef.mov" type="video/quicktime">
+</video>
+</div>
+</div>
+</a>
+</div>
+<div class="workgrid__item workgrid__item--14">
+<div class="workgrid__item__container">
+<div class="workgrid__item__content">
+<img src="/32.cf6573d8.png" alt="number 32">
+</div>
+</div>
+</div>
+<div class="workgrid__item workgrid__item--watchface  workgrid__item--15">
+<a href="javascript:void(0)">
+<div class="workgrid__item__container">
+<div class="workgrid__item__title">
+google watch<br>concept (soon)
+</div>
+<div class="workgrid__item__content">
+<video width="308" height="258" autoplay playsinline muted loop>
+<source src="/watchface.2187b0f2.mov" type="video/quicktime">
+<source src="/watchface.924c1a15.webm" type="video/webm">
+</video>
+</div>
+</div>
+</a>
+</div>
+<div class="workgrid__item workgrid__item--16">
+<a href="javascript:void(0)">
+<div class="workgrid__item__container">
+<div class="workgrid__item__title">
+ai expression (coming soon)
+</div>
+<div class="workgrid__item__content">
+<img src="/sauce.b29015ba.png" alt="glowing sauce">
+</div>
+</div>
+</a>
+</div>
+<div class="workgrid__item workgrid__item--17">
+<a href="/homehub.html">
+<div class="workgrid__item__container">
+<div class="workgrid__item__title">
+google<br>home hub
+</div>
+<div class="workgrid__item__content">
+<img src="/homehub.e1123264.png" alt="homehub">
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<section class="words">
+<h1>
+Write
+</h1>
+<div class="row">
+<div class="col-xs-12 col-sm-8 col-md-7 col-lg-8">
+<p>
+Writing is an essential part of my process. My essays were featured on FastCompany, TNW, Smashing Magazine, and Medium. You can find some of my latest writing below.
+</p>
+</div>
+</div>
+<div class="words__carousel">
+<div class="words__carousel__content">
+<ul class="row words__samples">
+<li class="col-xs-4 col-sm-4 col-md-4 col-lg-4 words__samples__item">
+<a target="_blank" href="https://medium.com/s/story/from-clockworks-to-computers-on-our-wrists-11a709a20000">
+<figure>
+<div class="tile tile--center tile--hover tile--4to3">
+<div class="tile__content">
+<img src="/icon-clock.0dea988d.png" alt="clock">
+</div>
+</div>
+<figcaption>How Apple beat Swiss watchmakers at their own game</figcaption>
+</figure>
+</a>
+</li>
+<li class="col-xs-4 col-sm-4 col-md-4 col-lg-4 words__samples__item">
+<a href="blog/my-chatbot-is-dead-·-why-yours-should-probably-be-too/">
+<figure>
+<div class="tile tile--center tile--hover tile--4to3">
+<div class="tile__content">
+<img src="/icon-meaningful-motion.2989e940.png" alt="motion icon">
+</div>
+</div>
+<figcaption>My chatbot is dead</figcaption>
+</figure>
+</a>
+</li>
+<li class="col-xs-4 col-sm-4 col-md-4 col-lg-4 words__samples__item">
+<a target="_blank" href="https://medium.com/s/story/the-rise-of-anti-notifications-6c92e355612b">
+<figure>
+<div class="tile tile--center tile--hover tile--4to3">
+<div class="tile__content">
+<img src="/icon-notification.c1bb23cf.png" alt="notification icon">
+</div>
+</div>
+<figcaption>The rise of Anti-notifications</figcaption>
+</figure>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="words__drawer">
+<ul class="words__extended">
+<li>
+<a target="_blank" href="blog/the-power-of-unfinished/">
+<dl>
+<dt>The Power of Unfinished (10 min)</dt>
+<dd>How to get more done, uplevel your craft</dd>
+</dl>
+</a>
+</li>
+<li>
+<a target="_blank" href="blog/framer-is-dead/">
+<dl>
+<dt>Framer is dead (8 min)</dt>
+<dd>A love letter to my design tool of choice</dd>
+</dl>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design/">
+<dl>
+<dt>Meaningful motion in design (10 min)</dt>
+<dd>The small details that make up great interfaces</dd>
+</dl>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://uxdesign.cc/via-negativa-4bb536f235d5">
+<dl>
+<dt>The loss of micro-privacy (18 min)</dt>
+<dd>How small design changes re-wrote human interaction</dd>
+</dl>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://uxdesign.cc/via-negativa-4bb536f235d5">
+<dl>
+<dt>Via Negativa (18 min)</dt>
+<dd>Design through elimination</dd>
+</dl>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://uxdesign.cc/why-small-teams-win-b607cb03db11">
+<dl>
+<dt>Why small teams win (7 min)</dt>
+<dd>Scaling meaning before scaling teams</dd>
+</dl>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://medium.com/swlh/the-vicious-circle-of-mediocre-work-c15e98a30798">
+<dl>
+<dt>The vicious circle of mediocre work (7 min)</dt>
+<dd>How to create better work</dd>
+</dl>
+</a></li>
+<li>
+<a target="_blank" href="https://uxdesign.cc/what-designers-can-learn-from-the-iphone-x-2b6f866443f3">
+<dl>
+<dt>What designers can learn from iPhone X (10 min)</dt>
+<dd>Thoughts on the flagship device</dd>
+</dl>
+</a></li>
+<li>
+<a target="_blank" href="https://uxdesign.cc/skeuomorphism-in-conversational-design-6ff9aea98829">
+<dl>
+<dt>Skeuomorphism In Conversational Design (12 min)</dt>
+<dd>Why voice interfaces are just another form of skeuomorphism</dd>
+</dl>
+</a></li>
+<li>
+<a target="_blank" href="https://uxdesign.cc/taking-responsibility-for-the-things-you-launch-149326166e7">
+<dl>
+<dt>Taking responsibility for the things you launch (5 min)</dt>
+<dd>Why voice interfaces are just another form of skeuomorphism</dd>
+</dl>
+</a></li>
+<li>
+<a target="_blank" href="https://medium.com/google-design/stop-talking-start-listening-7a555ec8ebb1">
+<dl>
+<dt>Stop talking, start listening (6 min)</dt>
+<dd>The main reason some designers excel in their craft</dd>
+</dl>
+</a></li>
+<li>
+<a target="_blank" href="https://uxdesign.cc/caveats-of-motion-in-design-9ce624c5fdf5">
+<dl>
+<dt>Caveats of motion design (7 min)</dt>
+<dd>The power of focusing on individual moments</dd>
+</dl>
+</a></li>
+<li>
+<a target="_blank" href="https://uxplanet.org/introducing-mindful-f424745544e8">
+<dl>
+<dt>Introducing Mindful (4 min)</dt>
+<dd>The notepad that follows you throughout your day</dd>
+</dl>
+</a></li>
+<li>
+<a target="_blank" href="https://uxdesign.cc/my-website-is-now-conversational-here-is-what-i-learned-7e943cc6ace0">
+<dl>
+<dt>Technical and social challenges of conversational design (15 min)</dt>
+<dd>Insights from turning my website into a chat bot</dd>
+</dl>
+</a></li>
+<li>
+<a target="_blank" href="https://medium.com/swlh/the-illusion-of-time-8f321fa2f191?source=your_stories_page---------------------------">
+<dl>
+<dt>The Illusion of Time (12 min)</dt>
+<dd>How to slowdown and accelerate time in UX design</dd>
+</dl>
+</a></li>
+</ul>
+</div>
+</section>
+<section class="play">
+<a class="fab">
+<img src="/icon-plus.88aadf8a.png" alt="more">
+</a>
+<div class="play__container">
+<img class="play__visual" src="/hand-ls.cda2801e.jpg" alt="phone image">
+<div class="play__content">
+<h1>
+Play
+</h1>
+<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<p>I’m driven by curiosity, mixing analog and digital media to develop novel visual expressions for wallpapers and my work on AI based systems.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-10 col-md-6 col-lg-6">
+<a href="/experiments.html" class="btn btn--margin">→ explore</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="speaking">
+<h1>
+Speak
+</h1>
+<div class="row">
+<div class="col-xs-12 col-sm-10 col-md-8 col-lg-8">
+<p>I’m passionate about sharing knowledge and meeting new people. I've had the opportunity to share ideas at various events around the globe.</p>
+</div>
+</div>
+<ul class="row engagement-list">
+<li class="col-xs-12 col-sm-10 col-md-6 col-lg-6 engagement-list__item">
+<a href="https://2018.uxlondon.com/speakers/adrian-zumbrunnen">
+<figure class="row">
+<div class="col-xs-4 col-sm-2 col-md-4 col-lg-4">
+<div class="tile tile--4to3 tile--hover tile--center">
+<div class="tile__content">
+<img class="speaking__figure__image" src="/icon-messaging.76dbb284.png" alt="messaging icon">
+</div>
+</div>
+</div>
+<figcaption class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+<dl>
+<dt>Conversational UI</dt>
+<dd>UX Tokyo, Awwwards</dd>
+</dl>
+</figcaption>
+</figure>
+</a>
+</li>
+<li class="col-xs-12 col-sm-10 col-md-6 col-lg-6 engagement-list__item">
+<a target="_blank" href="https://www.youtube.com/watch?v=hIDt-MTRhAs">
+<figure class="row">
+<div class="col-xs-4 col-sm-2 col-md-4 col-lg-4">
+<div class="tile tile--4to3 tile--hover  tile--center">
+<div class="tile__content">
+<img class="speaking__figure__image" src="/icon-focus.dfa78b10.png" alt="focus icon">
+</div>
+</div>
+</div>
+<figcaption class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+<dl>
+<dt>Designing for attention</dt>
+<dd>Wix Tel-Aviv, UX Salon</dd>
+</dl>
+</figcaption>
+</figure>
+</a>
+</li>
+<li class="col-xs-12 col-sm-10 col-md-6 col-lg-6 engagement-list__item">
+<a target="_blank" href="https://www.apprela.com/index.php/2016/11/18/adrian-zumbrunnen-of-google-on-smart-transitions-in-ui-design/">
+<figure class="row">
+<div class="col-xs-4 col-sm-2 col-md-4 col-lg-4">
+<div class="tile tile--4to3 tile--hover tile--center">
+<div class="tile__content">
+<img class="speaking__figure__image" src="/icon-motion.3479f6be.png">
+</div>
+</div>
+</div>
+<figcaption class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+<dl>
+<dt>Meaningful Motion</dt>
+<dd>Amuse, Awwwards, Push</dd>
+</dl>
+</figcaption>
+</figure>
+</a>
+</li>
+<li class="col-xs-12 col-sm-10 col-md-6 col-lg-6 engagement-list__item">
+<a target="_blank" href="https://www.youtube.com/watch?v=h65yL5qknPg">
+<figure class="row">
+<div class="col-xs-4 col-sm-2 col-md-4 col-lg-4">
+<div class="tile tile--4to3 tile--hover tile--center">
+<div class="tile__content">
+<img class="speaking__figure__image" src="/icon-choice.8019f907.png" alt="choice icon">
+</div>
+</div>
+</div>
+<figcaption class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+<dl>
+<dt>Designing choice</dt>
+<dd>Push 16, Amuse, Web Expo</dd>
+</dl>
+</figcaption>
+</figure>
+</a>
+</li>
+<li class="col-xs-12 col-sm-10 col-md-6 col-lg-6 engagement-list__item">
+<a target="_blank" href="https://wordpress.tv/2014/10/22/adrian-zumbrunnen-rethinking-content-creation/">
+<figure class="row">
+<div class="col-xs-4 col-sm-2 col-md-4 col-lg-4">
+<div class="tile tile--4to3 tile--hover tile--center">
+<div class="tile__content">
+<img class="speaking__figure__image" src="/icon-editing.f30feaf1.png" alt="editing icon">
+</div>
+</div>
+</div>
+<figcaption class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+<dl>
+<dt>Rethinking Content Creation</dt>
+<dd>Amuse, Awwwards</dd>
+</dl>
+</figcaption>
+</figure>
+</a>
+</li>
+</ul>
+</section>
+<section class="footer">
+<div class="footer__content">
+<div><span><a class="footer__home" href="/">⌂</a></span><span><a href="https://twitter.com/azumbrunnen_">twitter</a></span><a href="https://ch.linkedin.com/in/azumbrunnen">linkedIn</a>
+</div>
+<p>made in Zurich</p>
+</div>
+</section>
+<script>(function(i, s, o, g, r, a, m) {
+    i["GoogleAnalyticsObject"] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments);
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m);
+})(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
+ga("create", "UA-42460075-1", "azumbrunnen.me");
+ga("send", "pageview");
 
-    <div class="container">
-        <section id="home">
-            <h2>Home</h2>
-            <p>This is the home section. Welcome to my simple website!</p>
-        </section>
-        
-        <section id="about">
-            <h2>About</h2>
-            <p>Learn more about us in this section.</p>
-        </section>
-        
-        <section id="services">
-            <h2>Services</h2>
-            <p>Discover the services we offer.</p>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Get in touch with us here.</p>
-        </section>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 My Simple Website. All rights reserved.</p>
-    </footer>
+</script>
+</div>
+<script src="/homehub.3d214d75.js" defer></script>
 </body>
 </html>
-   
+
